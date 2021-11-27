@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #7a4f0d, #876f67, #d1af19);
+    background: linear-gradient(to bottom,#2e1910, #6e3720, #bf680b, #d1af19);
     height: 100vh;
     position: flex;
     font-family: 'Lato', sans-serif;
@@ -35,9 +35,12 @@ form {
 
 
 
+
+
+
 h2 {
     font-size: 20px;
-    color: #e3dfda;
+    color: #ffffff;
     font-size: 30px;
     padding-bottom: 10px;
 
@@ -45,26 +48,46 @@ h2 {
 
 a {
     text-decoration: none;
-    color: #e3dfda;
+    color: #ffffff;
 }
 
 input {
     display: block;
-    width: 450px;
+    width: 400px;
     border: 0;
-    padding: 15px;
+    padding: 15px 15px 15px 50px;
     margin: 15px;
     background-color: #f0c135;
-    color: #e3dfda;
+    color: #ffffff;
+   
 
 }
+.inputBox {
+    position: relative;
+}
 
+.inputBox i {
+    color: #ffffff;
+    position: absolute;
+  left: 30px;
+  padding-top: 15px;
+ 
+    
+   
+}
 
 .footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+    position: relative;
+}
+
+.footer i {
+    color:#6b5a47;
+    position: absolute;
+    left:100px;
 }
 
 .button {
@@ -86,9 +109,11 @@ input {
 
 
 
-::placeholder {
-    color: #e3dfda;
 
+
+::placeholder {
+    color: #ffffff;
+    
 
 }
 
@@ -99,5 +124,5 @@ p {
 }
 
 span {
-    color: #e3dfda;
+    color:#ffffff ;
 }
