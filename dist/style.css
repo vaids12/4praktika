@@ -15,7 +15,7 @@ body {
 form {
     width: 500px;
     height: 450px;
-    margin: 100px auto;
+    margin: 200px auto 100px;
     text-align: center;
     background-color: rgb(32, 32, 32);
     background-image: linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(45deg, black 25%, transparent 25%, transparent 75%, black 75%, black), linear-gradient(to bottom, rgb(8, 8, 8), rgb(32, 32, 32));
@@ -85,22 +85,29 @@ input {
 }
 
 .footer i {
-    color:#6b5a47;
+    color:#878178;
     position: absolute;
-    left:100px;
+    left:65px;
 }
 
-.button {
-    width: 150px;
-    background-color: #261f13;
-    color: #6b5a47;
+
+
+button {
+    width: 170px;
+    height: 50px;
+    background-color: #21190f;
+    color: #878178;
+    font-size: medium;
     text-align: center;
     cursor: pointer;
     transition: 0.5s all ease;
+    border: none;
+    border-radius: 5px;
+
 
 }
 
-.button:hover {
+button:hover {
     background-color: #f0c135;
 }
 
