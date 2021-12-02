@@ -6,7 +6,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom,#2e1910, #6e3720, #bf680b, #d1af19);
+    background: linear-gradient(to bottom, #2e1910, #6e3720, #bf680b, #d1af19);
     height: 100vh;
     position: flex;
     font-family: 'Lato', sans-serif;
@@ -59,9 +59,10 @@ input {
     margin: 15px;
     background-color: #f0c135;
     color: #ffffff;
-   
+
 
 }
+
 .inputBox {
     position: relative;
 }
@@ -69,11 +70,11 @@ input {
 .inputBox i {
     color: #ffffff;
     position: absolute;
-  left: 30px;
-  padding-top: 15px;
- 
-    
-   
+    left: 30px;
+    padding-top: 15px;
+
+
+
 }
 
 .footer {
@@ -85,16 +86,16 @@ input {
 }
 
 .footer i {
-    color:#878178;
+    color: #878178;
     position: absolute;
-    left:65px;
+    left: 65px;
 }
 
 
 
-button {
-    width: 170px;
-    height: 50px;
+.button {
+    width: 120px;
+    height: 30px;
     background-color: #21190f;
     color: #878178;
     font-size: medium;
@@ -107,7 +108,7 @@ button {
 
 }
 
-button:hover {
+.button:hover {
     background-color: #f0c135;
 }
 
@@ -120,7 +121,7 @@ button:hover {
 
 ::placeholder {
     color: #ffffff;
-    
+
 
 }
 
@@ -131,5 +132,5 @@ p {
 }
 
 span {
-    color:#ffffff ;
+    color: #ffffff;
 }
